@@ -16,8 +16,8 @@ from typing import List
 
 import base64
 
-from yflive.yfquote_pb2 import YFQuote
-from yflive.quote import Quote
+from .yfquote_pb2 import YFQuote
+from .quote import Quote
 
 class _QuoteReader:
     """

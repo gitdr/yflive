@@ -17,7 +17,7 @@ from typing import Any
 import uuid
 import pprint
 
-from yflive.enums import MarketState, OptionType, QuoteType
+from .enums import MarketState, OptionType, QuoteType
 
 class Quote:
     """
